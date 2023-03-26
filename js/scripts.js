@@ -52,3 +52,40 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+var belectro = document.getElementById("electro");
+var bmeca = document.getElementById("meca");
+var bsoftware = document.getElementById("soft");
+var baeronautica = document.getElementById("aero");
+var delectro = document.getElementById("delectro");
+var dmeca = document.getElementById("dmeca");
+var daero = document.getElementById("daero");
+var dsoft = document.getElementById("dsoft");
+
+belectro.addEventListener("click", function() {
+    delectro.style.display = "block";
+    dmeca.style.display = "none";
+    daero.style.display = "none";
+    dsoft.style.display = "none";
+});
+
+bmeca.addEventListener("click", function() {
+    delectro.style.display = "none";
+    dmeca.style.display = "block";
+    daero.style.display = "none";
+    dsoft.style.display = "none";
+});
+
+bsoftware.addEventListener("click", function() {
+    delectro.style.display = "none";
+    dmeca.style.display = "none";
+    daero.style.display = "none";
+    dsoft.style.display = "block";
+});
+
+baeronautica.addEventListener("click", function() {
+    delectro.style.display = "none";
+    dmeca.style.display = "none";
+    daero.style.display = "block";
+    dsoft.style.display = "none";
+});
