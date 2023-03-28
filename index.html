@@ -24,7 +24,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Documentos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Matricula titulacion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#titulacion">Titulación UTE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#posterior">Posterior a titulación</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Más información</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
                     </ul>
@@ -65,22 +67,13 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-5 mb-0">
-                <h4 class="section-subheading text-center">Escoge la carrera a la que perteneces</h4> 
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                    <button class="btn btn-outline-success" type="button" id="electro">Electrónica</button>
-                    <button class="btn btn-outline-success" type="button" id ="meca">Mecatrónica</button>
-                    <button class="btn btn-outline-success" type="button" id ="soft">Software</button>
-                    <button class="btn btn-outline-success" type="button" id ="aero">Aeronáutica</button>
-                </div>
-            </div>
         </section>
         <!-- Guia documentacion-->
         <section class="page-section bg-bgreen" id="portfolio">
-            <div class="container" id="delectro">
+            <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Documentos Electrónica</h2>
-                    <h3 class="section-subheading text-muted">Listado y explicación de los documentos que se deberán presentar</h3>
+                    <h2 class="section-heading text-uppercase">Documentos matricula titulación</h2>
+                    <h3 class="section-subheading text-muted">Listado y explicación de los documentos que se deberán presentar para matricularse en la UAR</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -205,10 +198,12 @@
                     </div>
                 </div>
             </div>
-            <div class="container" id="dmeca" style="display: none;">
+        </section>
+        <section class="page-section bg-bgreen" id="titulacion">
+            <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Documentos Mecatrónica</h2>
-                    <h3 class="section-subheading text-muted">Listado y explicación de los documentos que se deberán presentar</h3>
+                    <h2 class="section-heading text-uppercase">Documentos Titulación UTE</h2>
+                    <h3 class="section-subheading text-muted">Listado y explicación de los documentos que se deberán presentar para titularse</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -333,138 +328,12 @@
                     </div>
                 </div>
             </div>
-            <div class="container" id="dsoft" style="display: none;">
+        </section>
+        <section class="page-section bg-bgreen" id="posterior">
+            <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Documentos Software</h2>
-                    <h3 class="section-subheading text-muted">Listado y explicación de los documentos que se deberán presentar</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Documento 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/hoja_datos.png" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">1.- Hoja de datos</div>
-                                <div class="portfolio-caption-subheading text-muted">Documento excel para ser llenado</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Documento 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/alumni.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">2.- Constancia de Registro sistema Alumni</div>
-                                <div class="portfolio-caption-subheading text-muted">Documento actualizado del período académico</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Documento 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/documento.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">3.- Copia de Documentos Personales</div>
-                                <div class="portfolio-caption-subheading text-muted">Copias a color</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Documento 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/acta.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">4.- Acta de Grado</div>
-                                <div class="portfolio-caption-subheading text-muted">Acta del Estudiante</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Documento 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/certificado_periodo_estudios.png" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">5.- Certificado de Periodo de Estudios</div>
-                                <div class="portfolio-caption-subheading text-muted">Llenar por el estudiante</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Documento 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/Recorddd_Academico.png" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">6.- Record Académico</div>
-                                <div class="portfolio-caption-subheading text-muted">Descargar en Mi Espe</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Documento 7-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/calificacion_oral.png" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">7.- Calificaciones De La Exposición De Trabajo De Titulación</div>
-                                <div class="portfolio-caption-subheading text-muted">Sin definir</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 ">
-                        <!-- Documento 8-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">8.- Copia Certificada</div>
-                                <div class="portfolio-caption-subheading text-muted">Sin definir</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container" id="daero" style="display: none;">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Documentos Aeronáutica</h2>
-                    <h3 class="section-subheading text-muted">Listado y explicación de los documentos que se deberán presentar</h3>
+                    <h2 class="section-heading text-uppercase">Documentos posteriores a la titulación</h2>
+                    <h3 class="section-subheading text-muted">Listado y explicación de los documentos y procesos a realizarse luego de titularse</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
